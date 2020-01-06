@@ -114,6 +114,8 @@ class SExpression:
     function call are restricted? 
 
     3. This function also checks for invalid operator and operand cases.
+
+    4. In order to support floating point nnumbers. Type cast operands to float instead of int../c
     '''
     def evaluate_expression(self, operator, operands):
 
