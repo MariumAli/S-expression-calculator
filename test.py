@@ -104,7 +104,7 @@ class SExpressionTest(unittest.TestCase):
         # More complex combinations
         self.assertEqual(s_expression_calc.calc('(multiply (add (multiply 1 2) 3) (add 1 2))'), 15)
         self.assertEqual(s_expression_calc.calc('(multiply (add (multiply 1 2) (add 3 4)) (multiply (add 5 6) (multiply 7 8)))'), 5544)
-        self.assertEqual(s_expression_calc.calc('(multiply 2 (add (multiply 2 3) (multiply 2 3) (multiply 2 3) (multiply 2 8) (multiply 2 8) (multiply 2 10)))"'), 140)
+        self.assertEqual(s_expression_calc.calc('(multiply 2 (add (multiply 2 3) (multiply 2 3) (multiply 2 3) (multiply 2 8) (multiply 2 8) (multiply 2 10)))'), 140)
 
 
 if __name__ == '__main__':
